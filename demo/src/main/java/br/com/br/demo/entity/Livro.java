@@ -39,5 +39,9 @@ public class Livro {
         this.isbn = isbn;
     }
 
+    public Livro(Lond id) {
+        this.id = id;
+    }
+
 
 
