@@ -54,7 +54,7 @@
 
             Isbn: <span th:text="${livro.isbn}"></span>
 
-            Data de publicação: <span th:text="${livro.dataPublicacao}"></span>
+            dataPublicacao: <span th:text="${#temporals.format(livro.dataPublicacao, 'dd/MM/yyyy')}"></span>
 
 
             ENTRAR | DELETAR
@@ -70,4 +70,3 @@
 
 </body>
 </html>
- 
